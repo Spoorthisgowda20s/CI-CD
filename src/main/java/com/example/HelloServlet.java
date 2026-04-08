@@ -8,7 +8,7 @@ public class HelloServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest req,
 		             HttpServletResponse res) throws IOException {
 
-	res.setContentType("text/html")
-	res.setWriter().println("Deployment succesfull")
+	res.setContentType("text/html");
+	res.setWriter().println("Deployment succesfull");
 		}
 }
