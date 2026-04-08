@@ -1,6 +1,6 @@
 <html>
 <body>
-<h2><Hello></h2>
-<a href = "Hello">Run</a>
+    <h2>Welcome to CI/CD Pipeline</h2>
+    <a href="hello">Click here</a>
 </body>
 </html>
