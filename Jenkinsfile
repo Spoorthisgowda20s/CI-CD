@@ -10,13 +10,13 @@ pipeline {
 			}
 		}
  
-		stage('Docker Build) {
+		stage('Docker Build') {
 			steps {
 				bat 'docker build -t webapp .'
 			}
 		}
 
-		stage('Run) {
+		stage('Run') {
 			steps {
 				bat 'docker rm -f webapp || exit 0'
 				bat 'docker run -d -p 8087:8080 --name webapp webapp'
