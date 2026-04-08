@@ -10,3 +10,5 @@ public class HelloServlet extends HttpServlet {
 
 	res.setContentType("text/html")
 	res.setWriter().println("Deployment succesfull")
+		}
+}
