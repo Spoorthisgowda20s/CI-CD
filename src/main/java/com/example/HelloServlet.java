@@ -9,6 +9,6 @@ public class HelloServlet extends HttpServlet {
 		             HttpServletResponse res) throws IOException {
 
 	res.setContentType("text/html");
-	res.setWriter().println("Deployment succesfull");
+	res.setWriter().println("<h2>Deployment Successful!</h2>");
 		}
 }
