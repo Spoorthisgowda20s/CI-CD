@@ -1,14 +1,16 @@
 package com.example;
 
 import java.io.IOException;
+import javax.servlet.*;
 import javax.servlet.http.*;
 
 public class HelloServlet extends HttpServlet {
 
-	protected void doGet(HttpServletRequest req,
-		             HttpServletResponse res) throws IOException {
+    protected void doGet(HttpServletRequest req,
+                         HttpServletResponse res)
+            throws ServletException, IOException {
 
-	res.setContentType("text/html");
-	res.setWriter().println("<h2>Deployment Successful!</h2>");
-		}
+        res.setContentType("text/html");
+        res.getWriter().println("<h2>Hello from Servlet</h2>");
+    }
 }
