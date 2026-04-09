@@ -13,4 +13,4 @@ public class HelloServlet extends HttpServlet {
         res.setContentType("text/html");
         res.getWriter().println("<h2>Hello from Servlet</h2>");
     }
-}
+
